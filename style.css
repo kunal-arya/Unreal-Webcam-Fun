@@ -13,9 +13,11 @@ html {
 
 .photobooth {
   background: white;
-  max-width: 150rem;
+  max-width: 100vh;
   margin: 2rem auto;
   border-radius: 2px;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 /*clearfix*/
@@ -35,6 +37,11 @@ html {
   top: 20px;
   right: 20px;
   width:200px;
+}
+
+/* To hide RGB options */
+.rgb-hide {
+  display: none;
 }
 
 /*
