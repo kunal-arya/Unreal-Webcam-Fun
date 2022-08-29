@@ -44,6 +44,8 @@ function paintToCanvas() {
         if(isRgbSplit) {
             pixels = rgbSplit(pixels);
             ctx.globalAlpha = 0.1;
+        } else {
+            ctx.globalAlpha = 1;
         }
 
         if(isGreenScreen) {
